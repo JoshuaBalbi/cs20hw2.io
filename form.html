@@ -1,0 +1,90 @@
+<html>
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href=css/stylesheet.css>
+</head>
+<style>
+
+h1{
+    font-weight: 600;
+    color: #2f56f6;
+    font-size: 48
+    text-align: center;
+}
+body {
+  background-image: url("images/download.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+</style>
+<body>
+    <div class="topnav">
+        <a class="active" href=./form.html>Order</a>
+        <a href=./Contact.html>Contact</a>
+        <a href=./services.html>Services</a>
+        <a href=./assign2.html>Home</a>
+    </div>
+    <br/>
+<h1>Order Here</h1>
+
+  After taking a look at our
+  <a href = images/menu.jpg target = _blank> menu</a>
+   place your order below!
+  <br />
+  <br />
+<form action="/action_page.php">
+    <label for="name">First name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <!-- Name:
+    <br/>
+    <input></input>
+    <br/> -->
+    Phone #:
+    <br/>
+    <input></input>
+    <br/>
+    Address:
+    <br/>
+    <textarea name="address" rows="2" cols="40"></textarea>
+    <br />
+    Store:
+    <br />
+    Please only order from the city you live in :)
+    <br/>
+    <select class="storenum" name="storenum">
+        <option value="1">Boston</option>
+        <option value="2">Medford</option>
+        <option value="3">Somerville</option>
+        <option value="4">Ashville</option>
+        <option value="5">Cambridge</option>
+        <option value="6">Salem</option>
+        <option value="7">Manhattan</option>
+        <option value="8">Bronx</option>
+        <option value="9">Brooklyn</option>
+        <option value="10">Greenwich</option>
+        <option value="11">Stamford</option>
+        <option value="12">Hartford</option>
+    </select>
+    <br />
+    Order:
+    <br />
+    <textarea name="order" rows="8" cols="80"></textarea>
+    <br />
+    <br />
+    <input type="submit" value="submit">
+</form>
+  <br />
+  <br />
+</body>
+
+
+<!-- <label for="name">First name:</label><br>
+<input type="text" id="name" name="name"><br>
+
+<label for="address">Address:</label><br>
+<input type="text" id="address" name="address"><br> -->
